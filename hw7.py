@@ -9,8 +9,8 @@ class BluetoothDevice:
     def connect(self, other_device):
         self.connected_device = other_device
 
-blueD1 = BluetoothDevice("JBL", "partybox310", 1000, "yes")
-blueD2 = BluetoothDevice("JBL", "Charge4", 300, "no")
+blueD1 = BluetoothDevice("lmb", "plotnacolonka", 1000, "yes")
+blueD2 = BluetoothDevice("lmb", "Cih", 300, "no")
 
 blueD1.connect(blueD2)
 if blueD1.connected_device:
